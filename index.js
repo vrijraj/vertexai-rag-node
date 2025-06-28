@@ -25,7 +25,7 @@ async function createEmbeddings() {
 
   try {
     // Step 1: Read PDF
-    const pdfBuffer = fs.readFileSync("./grad.pdf");
+    const pdfBuffer = fs.readFileSync("./resume.pdf");
     const pdfData = await pdf(pdfBuffer);
     console.log(`📄 Extracted ${pdfData.text.length} characters from PDF`);
 
@@ -160,7 +160,7 @@ async function demo() {
   console.log("\n2️⃣ Now asking questions...");
 
   // Ask some questions
-  const questions = ["How are the founder of Stepwik?"];
+  const questions = ["Tell me about John W. Smith"];
 
   for (const question of questions) {
     console.log("\n" + "-".repeat(40));
