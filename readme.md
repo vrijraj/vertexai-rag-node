@@ -23,7 +23,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Goog
 
 2. **Set up Google Cloud authentication**:
    ```bash
-   gclould auth login
+   gcloud auth login
    ```
 
 3. **Create `.env` file**:
