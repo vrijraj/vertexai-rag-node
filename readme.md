@@ -1,3 +1,4 @@
+![RAGGCP](https://github.com/user-attachments/assets/d7431f9c-290e-48b5-9822-7b8fd7b6a804)
 # Vertex AI RAG with Node
 
 This project implements a Retrieval-Augmented Generation (RAG) system using Google's Vertex AI and Gemini models.
