@@ -28,7 +28,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Goog
 
 3. **Create `.env` file**:
    ```env
-   GOOGLE_CLOUD_PROJECT=agprop-in
+   GOOGLE_CLOUD_PROJECT=YOUR_GCP_PROJECT_ID
    GOOGLE_CLOUD_LOCATION=global
    ```
 
