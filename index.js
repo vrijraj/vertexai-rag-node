@@ -13,8 +13,8 @@ dotenv.config();
 
 const ai = new GoogleGenAI({
   vertexai: true,
-  project: "YOUR_PROJECT_ID",
-  location: "global",
+  project: process.env.GOOGLE_CLOUD_PROJECT,
+  location: process.env.GOOGLE_CLOUD_LOCATION,
 });
 
 /**
